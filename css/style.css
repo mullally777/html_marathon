@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    border-top: 1px solid #3882e5;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 87px;
+}
+
+.menu__list{
+    display: flex;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.menu__list li{
+    margin-left: 38px;
+}
+
+.menu__list a{
+    font-size: 14px;
+    color: #2f3f54;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+}
