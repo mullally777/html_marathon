@@ -89,9 +89,23 @@ a{
 }
 
 .top-info__list {
+    list-style: none;
+    margin-bottom: 50px;
 }
 
 .top-info__list li{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 3px;
+    position: relative;
+}
+
+.top-info__list li::before{
+    background-image: url("../images/list-icon.png");
+    height: 13px;
+    width: 13px;
+    position: absolute;
 }
 
 .top-info__btn {
