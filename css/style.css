@@ -123,13 +123,18 @@ a{
     margin-bottom: 15px;
 }
 
-.top-info__btn-descr {
-}
+
 .top-images {
 }
 .top-images__box {
 }
 .top-images__circle {
+    width: 230px;
+    height: 230px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
 }
 .top-images__title {
 }
