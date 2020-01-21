@@ -13,6 +13,7 @@ body {
     font-family: 'Lato', sans-serif;
     line-height: 24px;
     color: #4a6385;
+    font-size: 14px;
 }
 
 .container {
@@ -159,4 +160,56 @@ a{
 .top-images__date {
     text-align: right;
     width: 140px;
+}
+
+
+.price {
+    padding: 150px 0 180px;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #2f3f54;
+}
+
+.title span {
+    color: #2575e7;
+}
+
+.price__descr {
+    margin: 35px auto 125px;
+    max-width: 594px;
+    text-align: center;
+}
+
+.price__descr a {
+    color: #e74c3c;
+}
+
+.price__descr span {
+    color: #42d6c1;
+}
+
+.price__items {
+    display: flex;
+}
+.price-item {
+    max-width: 360px;
+    box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
+}
+.price-item__number {
+}
+.prce-item__images {
+}
+.price-item__title {
+}
+.price-item__text {
+}
+.price-item__list {
+}
+.price-item__btn {
 }
