@@ -396,8 +396,42 @@ outline: none;
 .review-slider__item {
 }
 .reviews-box {
+    display: flex;
+    box-shadow: 0px 21px 49px 1px rgba(41,44,66,0.15)
+}
+
+.reviews-box__images {
+    background-color: #2575e7;
+    width: 190px;
+    min-height: 350px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.reviews-box__images img {
+    border-radius: 50%;
+}
+
+.reviews-box__content {
+    width: 330px;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 40px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .reviews-box__text {
+margin-bottom: 30px;
 }
 .reviews-box__author {
+}
+
+.reviews-box__author span {
+    color: #2575e7;
+    font-family: 'Roboto', sans-serif;
+font-weight: 700;
 }
