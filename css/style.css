@@ -383,3 +383,21 @@ outline: none;
     padding: 10px;
     cursor: pointer;
 }
+
+.reviews {
+    padding: 120px 0px;
+    background-color: #fafafa;
+}
+
+.reviews-slider {
+    margin-top: 160px;
+}
+
+.review-slider__item {
+}
+.reviews-box {
+}
+.reviews-box__text {
+}
+.reviews-box__author {
+}
