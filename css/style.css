@@ -33,6 +33,10 @@ body {
     min-height: 87px;
 }
 
+.btn__menu {
+    display: none;
+}
+
 .menu__list {
     display: flex;
 }
@@ -407,8 +411,9 @@ a {
     margin: 0px -50px;
 }
 
-.reviews-slider .slick-track {
+.reviews-slider .slick-slide {
     margin: 0 50px;
+    padding-bottom: 70px;
 }
 
 .review-slider__item {
@@ -418,7 +423,6 @@ a {
     list-style: none;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
 }
 
 .reviews-slider .slick-dots li {
